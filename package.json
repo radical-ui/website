@@ -9,10 +9,13 @@
     "start": "node __sapper__/build",
     "cy:run": "cypress run",
     "cy:open": "cypress open",
-    "test": "run-p --race dev cy:run"
+    "test": "run-p --race dev cy:run",
+    "deploy": "npm run export && node move-to-docs.js"
   },
   "dependencies": {
     "compression": "^1.7.1",
+    "folder-delete": "^1.0.4",
+    "move-file": "^1.2.0",
     "polka": "^0.5.0",
     "sirv": "^0.4.0"
   },
