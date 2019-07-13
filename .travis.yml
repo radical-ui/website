@@ -1,0 +1,12 @@
+sudo: true
+language: node_js
+node_js:
+  - "10"
+script:
+  - npm run build
+deploy:
+  - provider: script
+    skip_cleanup: true
+    script: npm run deploy && git add -A && git commit -m "Deploy to github pages" && git push origin master
+    on:
+      branch: master
