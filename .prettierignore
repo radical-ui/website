@@ -1,0 +1,7 @@
+LICENSE
+docs/**
+__sapper__/**
+node_modules/**
+.gitignore
+.prettierignore
+.eslintignore
