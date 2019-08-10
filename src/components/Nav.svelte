@@ -53,7 +53,7 @@
 		width: 50px;
 		height: 50px;
 		border-radius: var(--border-r);
-		background: url('/st-logo-50.png');
+		background: url('../st-logo-50.png');
 		margin: 5px;
 	}
 	big {
