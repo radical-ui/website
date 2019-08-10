@@ -19,7 +19,7 @@
 <big>Svelte Toolbox</big>
 <h4>A work in progress.</h4>
 <p>
-	<a href="https://github.com/svelte-toolbox/svelte-toolbox/#README">
+	<a href="https://github.com/svelte-toolbox/svelte-toolbox/#chat-on-discord--documentation--changelog--component-status">
 		README
 	</a>
 	•
