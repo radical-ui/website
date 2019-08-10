@@ -112,7 +112,9 @@
 				<IconButton
 					icon={{ name: 'chat_bubble_outline', href: 'chat' }} />
 			</div>
-			<UIButton href="https://github.com/svelte-toolbox/svelte-toolbox">GitHub</UIButton>
+			<UIButton href="https://github.com/svelte-toolbox/svelte-toolbox">
+				GitHub
+			</UIButton>
 		{:else}
 			<div class="move-up">
 				<IconButton icon="menu" on:click={() => (showDrawer = true)} />
@@ -139,7 +141,10 @@
 				<!-- </div> -->
 			</div>
 			<div class="padding-top padding-bottom">
-				<UIButton href="https://github.com/svelte-toolbox/svelte-toolbox">GitHub</UIButton>
+				<UIButton
+					href="https://github.com/svelte-toolbox/svelte-toolbox">
+					GitHub
+				</UIButton>
 			</div>
 		</div>
 	{/if}
