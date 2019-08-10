@@ -1,0 +1,1 @@
+import{S as s,c as t,s as n,n as o,o as r}from"./index.64ab25bd.js";function a(s){return{c:o,l:o,m:o,p:o,i:o,o:o,d:o}}function c(s){return r(()=>{location.href="https://discord.gg/bWZnuvd"}),{}}export default class extends s{constructor(s){super(),t(this,s,c,a,n,[])}}
