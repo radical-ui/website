@@ -1,5 +1,5 @@
 const moveFile = require('move-file');
-const dir = require('fs').readdirSync('./__sapper__/export');
+const dir = require('fs').readdirSync('./__sapper__/export/website');
 const deleteFolder = require('folder-delete');
 
 (async () => {
@@ -9,7 +9,7 @@ const deleteFolder = require('folder-delete');
 
 	for (let index in dir) {
 		let file = dir[index];
-		await moveFile(`__sapper__/export/${file}`, `docs/${file}`);
+		await moveFile(`__sapper__/export/website/${file}`, `docs/${file}`);
 		console.log(`Moved ${file}`);
 	}
 	if (dir.length == 0)
