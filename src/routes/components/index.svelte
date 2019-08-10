@@ -1,3 +1,7 @@
+<svelte:head>
+	<title>Components | Svelte Toolbox</title>
+</svelte:head>
+
 <h1>Components</h1>
 <h2>Page should be comming soon!</h2>
 <h3>But until then you can check out these links:</h3>

@@ -1,3 +1,7 @@
+<svelte:head>
+	<title>Docs | Svelte Toolbox</title>
+</svelte:head>
+
 <h1>Docs</h1>
 <h2>Page should be comming soon!</h2>
 <h3>But until then you can check out these links:</h3>

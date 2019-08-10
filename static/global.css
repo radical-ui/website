@@ -118,3 +118,20 @@ body {
 .padding-bottm {
 	padding-bottom: 8px;
 }
+
+a {
+	color: var(--buttons);
+    text-decoration: none;
+}
+a:hover {
+	color: var(--buttons);
+    text-decoration: underline;
+}
+a:active {
+	color: var(--buttons);
+    text-decoration: underline;
+}
+a:visited {
+	color: var(--buttons);
+    text-decoration: none;
+}
