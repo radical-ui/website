@@ -109,7 +109,8 @@
 			<UIButton href="components">Components</UIButton>
 			<UIButton href="docs">Docs</UIButton>
 			<div class="move-up">
-				<IconButton icon={{ name: "chat_bubble_outline", href: "chat" }} />
+				<IconButton
+					icon={{ name: 'chat_bubble_outline', href: 'chat' }} />
 			</div>
 			<UIButton href="github">GitHub</UIButton>
 		{:else}
@@ -133,7 +134,8 @@
 			</div>
 			<div class="padding-top padding-bottom">
 				<!-- <div class="move-up"> -->
-					<IconButton icon={{ name: "chat_bubble_outline", href: "chat" }} />
+				<IconButton
+					icon={{ name: 'chat_bubble_outline', href: 'chat' }} />
 				<!-- </div> -->
 			</div>
 			<div class="padding-top padding-bottom">
