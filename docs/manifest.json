@@ -1,19 +1,14 @@
 {
 	"background_color": "#ffffff",
 	"theme_color": "#333333",
-	"name": "TODO",
-	"short_name": "TODO",
+	"name": "Svelte Toolbox Website",
+	"short_name": "Svelte Toolbox",
 	"display": "minimal-ui",
 	"start_url": "/",
 	"icons": [
 		{
-			"src": "logo-192.png",
-			"sizes": "192x192",
-			"type": "image/png"
-		},
-		{
-			"src": "logo-512.png",
-			"sizes": "512x512",
+			"src": "st-logo-300.png",
+			"sizes": "300x300",
 			"type": "image/png"
 		}
 	]
