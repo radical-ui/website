@@ -4,7 +4,7 @@
 	"name": "Svelte Toolbox Website",
 	"short_name": "Svelte Toolbox",
 	"display": "minimal-ui",
-	"start_url": "/",
+	"start_url": "/website/",
 	"icons": [
 		{
 			"src": "st-logo-300.png",
