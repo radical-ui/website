@@ -5,21 +5,21 @@
 	--back: #ffffff;
 	--back-light: #f6fafd;
 	--back-api: #eff8ff;
-	--prime: #ff3e00;
-	--second: #676778;
+	--prime: #98603d;
+	--second: #434346;
 	--flash: #40b3ff;
 	--heading: var(--second);
 	--text: #444;
-	--sidebar-text: rgba(255, 255, 255, .75);
-	--border-w: .3rem;
-	--border-r: .4rem;
+	--sidebar-text: rgba(255, 255, 255, 0.75);
+	--border-w: 0.3rem;
+	--border-r: 0.4rem;
 }
 
 :root {
 	font-family: 'Roboto', sans-serif;
 
-    /* ripple */
-    --ripple-color: rgba(0, 0, 0, 0.3);
+	/* ripple */
+	--ripple-color: rgba(0, 0, 0, 0.3);
 
 	/* buttons */
 	--buttons: #303ba6;
@@ -55,7 +55,7 @@
 	--icon-buttons-ripple: rgba(0, 0, 0, 0.2);
 
 	/* Card */
-	--card-background-color: rgba(0, 0, 0, .05);
+	--card-background-color: rgba(0, 0, 0, 0.05);
 	--card-background-color-hover: rgba(0, 0, 0, 0);
 	--card-outline-color: #777;
 	--card-outline-color-hover: #999;
@@ -90,6 +90,24 @@
 	-webkit-font-smoothing: antialiased;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	font-weight: 400;
+}
+
+big {
+	font-size: 40px;
+	color: var(--prime);
+	letter-spacing: 0.2rem;
+	font-weight: 300;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
 }

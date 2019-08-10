@@ -1,4 +1,7 @@
-dist/
-public/
-src/styles/internal
+__sapper__/
+cypress/
+docs/
 rollup.config.js
+move-to-docs.js
+node_modules/
+src/server.js
