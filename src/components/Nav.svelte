@@ -95,7 +95,7 @@
 <svelte:window bind:innerWidth on:keydown={windowKeydown} />
 
 <nav>
-	<a href="/">
+	<a href="/website">
 		<!-- workaround until https://github.com/svelte-toolbox/svelte-toolbox/issues/100 is resolved -->
 		<Ripple>
 			<div class="left">
