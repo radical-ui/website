@@ -19,7 +19,7 @@
 	"dependencies": {
 		"compression": "^1.7.1",
 		"folder-delete": "^1.0.4",
-		"move-file": "^1.2.0",
+		"move-file": "^2.0.0",
 		"polka": "^0.5.0",
 		"sirv": "^0.4.0"
 	},
